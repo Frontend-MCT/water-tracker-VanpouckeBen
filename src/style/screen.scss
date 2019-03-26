@@ -2,13 +2,24 @@
 @import './settings/typography.scss';
 @import './settings/layout.scss';
 
+//tools go here
 @import './generic/reset.scss';
 
+//objects
+@import './objects/holder.scss';
 @import './objects/hide-accessible.scss';
 @import './objects/animations.scss'; // 🤔?
 
+//elements
 @import './elements/page.scss';
 
 // Components go here
+@import './components/time-stamps.scss';
+@import './components/percentage.scss';
+@import './components/button.scss';
+@import './components/app.scss';
+@import './components/wave.scss';
 
 //  Utilities go here
+
+@import './utulities/depth.scss';
